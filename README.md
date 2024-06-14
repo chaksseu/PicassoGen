@@ -1,4 +1,4 @@
-# PicassoGen: README.md
+# PicassoGen: Picture Assembler System using Stepwise Object Arrangement
 
 ## Overview
 
