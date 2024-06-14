@@ -48,7 +48,7 @@ PicassoGen is a novel text-to-image generation framework that addresses the chal
 
 ### Agents
 
-The `LLM agents` coordinate to interpret the prompt, generate positions, verify layouts, create background prompts, and finally generate and save the masks. We use the AutoGen framework for this part.
+The `LLM agents` coordinate to interpret the prompt, generate positions, verify layouts, create background prompts, and finally generate and save the masks. We use the AutoGen framework for this part. (We used GPT-4o for LLM agents.)
 
 1. **User Proxy Agent**: Receives the initial text prompt and coordinates between other agents.
 2. **Position Bot**: Generates layout information, including the position and size of each object.
@@ -58,7 +58,7 @@ The `LLM agents` coordinate to interpret the prompt, generate positions, verify 
 
 ### Inpainting
 
-The `Inpainter` class handles the inpainting process, creating detailed images based on the provided masks and prompts. It performs tasks such as generating background images, creating masks, and applying inpainting techniques to refine the final image.
+The `Inpainter` class handles the inpainting process, creating detailed images based on the provided masks and prompts. It performs tasks such as generating background images, creating masks, and applying inpainting techniques to refine the final image. (We used DALL-E2 for inpainting.)
 
 ### Configuration
 
