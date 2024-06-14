@@ -73,8 +73,3 @@ Configuration settings are managed in the `configs` directory. Key settings incl
 <a href="https://github.com/csjihwanh"><img src="https://img.shields.io/badge/csjihwanh-black?style=social-square&logo=github&logoColor=white"/></a>
 <a href="https://github.com/xwsa568"><img src="https://img.shields.io/badge/xwsa568-black?style=social-square&logo=github&logoColor=white"/></a>
 
-
-<a href="https://github.com/chaksseu"><img src="https://img.shields.io/badge/chaksseu-black?style=social-square&logo=github&logoColor=white"/></a>
-<a href="https://github.com/csjihwanh"><img src="https://img.shields.io/badge/csjihwanh-black?style=social-square&logo=github&logoColor=white"/></a>
-<a href="https://github.com/xwsa568"><img src="https://img.shields.io/badge/xwsa568-black?style=social-square&logo=github&logoColor=white"/></a>
-
