@@ -24,8 +24,9 @@ PicassoGen is a novel text-to-image generation framework that addresses the chal
     pip install -r requirements.txt
     ```
 
-4. **Set up environment variables**:
-    - Copy the `.env.example` to `.env` and fill in the necessary details such as `OPENAI_API_KEY`.
+4. **Set up environment variables (OpenAI API key)**:
+    - /.env 파일의 `OPENAI_API_KEY`를 적어라
+    - /configs/OAI_CONFIG_LIST_4o.json 파일의 api key를 적어라
 
 ## Usage
 
@@ -47,7 +48,8 @@ PicassoGen is a novel text-to-image generation framework that addresses the chal
 
 ### Agents
 
-The LLM agents coordinate to interpret the prompt, generate positions, verify layouts, create background prompts, and finally generate and save the masks.
+The `LLM agents` coordinate to interpret the prompt, generate positions, verify layouts, create background prompts, and finally generate and save the masks.
+We use AutoGen framework for this part.
 
 1. **User Proxy Agent**: Receives the initial text prompt and coordinates between other agents.
 2. **Position Bot**: Generates layout information, including the position and size of each object.
@@ -63,23 +65,6 @@ The `Inpainter` class handles the inpainting process, creating detailed images b
 
 Configuration settings are managed in the `configs` directory. Key settings include image dimensions, model names, and paths for storing images and masks.
 
-### Utilities
-
-Utility functions for tasks such as downloading images are located in the `utils` directory.
-
-## Evaluation
-
-The effectiveness of PicassoGen was evaluated using two primary metrics:
-
-1. **Generative Numeracy**: Measures the accuracy of the number of objects generated compared to the prompt specifications.
-2. **Spatial Reasoning**: Evaluates the correctness of the relative positions of the generated objects.
-
-
-## References
-
-Detailed references and further reading can be found in the project report and presentation.
-
-For more information and detailed implementation, please refer to the project report and presentation available in the repository.
 
 
 ---
