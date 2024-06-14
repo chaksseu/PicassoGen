@@ -4,7 +4,6 @@
 
 PicassoGen is a novel text-to-image generation framework that addresses the challenges of generating images with detailed positional and object count constraints. By leveraging Large Language Model (LLM) agents and inpainting techniques, PicassoGen enhances the accuracy and coherence of generated images, ensuring they adhere to specific details provided in the textual prompts.
 
-
 ## Installation
 
 1. **Clone the repository**:
@@ -25,8 +24,8 @@ PicassoGen is a novel text-to-image generation framework that addresses the chal
     ```
 
 4. **Set up environment variables (OpenAI API key)**:
-    - /.env 파일의 `OPENAI_API_KEY`를 적어라
-    - /configs/OAI_CONFIG_LIST_4o.json 파일의 api key를 적어라
+    - Add your `OPENAI_API_KEY` in the `.env` file
+    - Add your API key in the `/configs/OAI_CONFIG_LIST_4o.json` file
 
 ## Usage
 
@@ -48,8 +47,7 @@ PicassoGen is a novel text-to-image generation framework that addresses the chal
 
 ### Agents
 
-The `LLM agents` coordinate to interpret the prompt, generate positions, verify layouts, create background prompts, and finally generate and save the masks.
-We use AutoGen framework for this part.
+The `LLM agents` coordinate to interpret the prompt, generate positions, verify layouts, create background prompts, and finally generate and save the masks. We use the AutoGen framework for this part.
 
 1. **User Proxy Agent**: Receives the initial text prompt and coordinates between other agents.
 2. **Position Bot**: Generates layout information, including the position and size of each object.
@@ -65,9 +63,6 @@ The `Inpainter` class handles the inpainting process, creating detailed images b
 
 Configuration settings are managed in the `configs` directory. Key settings include image dimensions, model names, and paths for storing images and masks.
 
-
-
 ---
 
 This README provides a comprehensive guide to understanding and utilizing PicassoGen, ensuring users can set up and run the framework efficiently.
-
