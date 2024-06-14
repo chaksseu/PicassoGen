@@ -64,6 +64,17 @@ The `Inpainter` class handles the inpainting process, creating detailed images b
 
 Configuration settings are managed in the `configs` directory. Key settings include image dimensions, model names, and paths for storing images and masks.
 
+
 ---
 
-This README provides a comprehensive guide to understanding and utilizing PicassoGen, ensuring users can set up and run the framework efficiently.
+### Contributors 👩‍💻👨‍💻
+
+<a href="https://github.com/chaksseu"><img src="https://img.shields.io/badge/chaksseu-black?style=social-square&logo=github&logoColor=white"/></a>
+<a href="https://github.com/csjihwanh"><img src="https://img.shields.io/badge/csjihwanh-black?style=social-square&logo=github&logoColor=white"/></a>
+<a href="https://github.com/xwsa568"><img src="https://img.shields.io/badge/xwsa568-black?style=social-square&logo=github&logoColor=white"/></a>
+
+
+<a href="https://github.com/chaksseu"><img src="https://img.shields.io/badge/chaksseu-black?style=social-square&logo=github&logoColor=white"/></a>
+<a href="https://github.com/csjihwanh"><img src="https://img.shields.io/badge/csjihwanh-black?style=social-square&logo=github&logoColor=white"/></a>
+<a href="https://github.com/xwsa568"><img src="https://img.shields.io/badge/xwsa568-black?style=social-square&logo=github&logoColor=white"/></a>
+
