@@ -24,7 +24,8 @@ PicassoGen is a novel text-to-image generation framework that addresses the chal
     ```
 
 4. **Set up environment variables (OpenAI API key)**:
-    - Add your `OPENAI_API_KEY` in the `.env` file
+    - Make `.env` file and add your `OPENAI_API_KEY` in there.
+      - OPENAI_API_KEY = "YOUR API KEY"
     - Add your API key in the `/configs/OAI_CONFIG_LIST_4o.json` file
 
 ## Usage
