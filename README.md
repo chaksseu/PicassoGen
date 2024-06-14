@@ -33,12 +33,12 @@ PicassoGen is a novel text-to-image generation framework that addresses the chal
 1. **Prepare a text prompt**:
     - You need a text prompt that describes the image you want to generate. For example:
       ```
-      Draw two airplanes at the bottom and two UFOs at the top
+      "Draw one panda on the left side and 2 mokeys on the right side."
       ```
 
 2. **Run the main script**:
     ```bash
-    python main.py --prompt "Draw two airplanes at the bottom and two UFOs at the top"
+    python main.py --prompt "Draw one panda on the left side and 2 mokeys on the right side."
     ```
 
 3. **Generated files**:
