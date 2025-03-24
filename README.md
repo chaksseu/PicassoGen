@@ -7,7 +7,6 @@
 PicassoGen introduces:
 - **LLM-based autonomous agents** that handle prompt decomposition, planning, and mask generation.
 - **Iterative inpainting**, replacing layout-to-image generation with subgoal-based image construction.
-- A plug-and-play system based on pretrained models like **GPT-4o**, **Stable Diffusion**, and **DALL-E**.
 
 <p align="center">
   <img src="assets/overall_architecture.png" alt="Architecture" width="700"/>
